@@ -12,8 +12,8 @@ countries = {c["name"]: c["id"] for c in resp[1] if c["region"]["value"] != "Agg
 
 st.set_page_config(
     layout="wide",
-    page_title="Data Dashboard",
-    page_icon=":bar_chart:"
+    page_title="National-Indicators",
+    page_icon="🌎"
 )
 
 
