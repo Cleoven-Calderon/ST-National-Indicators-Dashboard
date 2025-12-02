@@ -73,7 +73,7 @@ plot_df = df_reset[["year", "GDP (Billion USD)", "GDP per capita", "Population (
                     "Inflation", "Life Expectancy", "Fertility Rate"]]
 plot_df = plot_df.melt(id_vars="year", var_name="Indicator", value_name="Value")
 
-chart = alt.Chart(plot_df).mark_area(point=False).encode(
+chart = alt.Chart(plot_df).mark_line(point=True).encode(
     x=alt.X("year:O", title="Year", axis=alt.Axis(labelAngle=0)),
     y=alt.Y("Value:Q", title="Value"),
     color="Indicator:N",
