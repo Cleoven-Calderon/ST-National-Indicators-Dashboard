@@ -10,6 +10,7 @@ A **Streamlit** web app that visualizes key **economic and demographic indicator
 
 ## **Screenshots**
 <img width="1913" height="1079" alt="Screenshot 2025-11-29 225539" src="https://github.com/user-attachments/assets/d55a27c0-921a-4f36-b3ec-597cf732bdd2" />
+<img width="1920" height="1080" alt="Screenshot 2025-12-05 184500" src="https://github.com/user-attachments/assets/b3935872-a0ea-4f2c-b54c-3ff5a6487d94" />
 
 
 ## **Features**
